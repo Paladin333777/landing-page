@@ -50,7 +50,7 @@ nav {
 header {
     margin: 0;
     display: flex;
-    padding: 15px 50px;
+    padding: 70px 50px;
     gap: 15px;
     justify-content: center;
     align-items: center;
@@ -58,11 +58,15 @@ header {
     flex-wrap: wrap;
 }
 
+#g2 {
+    max-width: 500px;
+}
+
 button {
     background-color: #3882F6;
     color: white;
     padding: 5px 20px;
-    border-radius: 8%;
+    border-radius: 8px;
     border: 0;
 }
 
@@ -123,4 +127,37 @@ header p {
     font-weight: bold;
     color: black;
     text-align: center;
+}
+
+#fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 100px;
+}
+
+#bigbox {
+    height: 150px;
+    max-width: 1000px;
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+    flex: 1;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+#lastb {
+    border-style: solid;
+    border-color: white;
+    border-radius: 8px;
 }
